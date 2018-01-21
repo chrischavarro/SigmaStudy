@@ -1,28 +1,89 @@
-.App {
+body {
+  cursor: default;
+}
+
+.orangeBg {
+  background-color: rgba(244, 115, 33, 0.8);
+}
+
+.greenBg {
+  background-color: rgba(0, 80, 48, 0.8)!important;
+}
+
+.row.appRow {
+  margin-bottom: 0px!important;
+}
+
+.logoImage {
+  width: 80%;
+  margin: 20px 10% 0px 10%;
+}
+
+.fullPage {
+  min-height: 100vh!important;
+}
+
+.navbar {
+  min-height: 100vh!important;
+  background-color: rgba(74, 51, 43, 0.9);
+  padding: 0px!important;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+  /* width: 5%!important; */
+  transition: all .5s;
+}
+
+.navbar:hover {
+  /* width: 16.6666666667%!important; */
+  transition: all .5s;
+}
+
+.navLinks {
+  /* text-transform: uppercase; */
+  font-size: 40px;
+  margin-left: 25px;
+  line-height: 125px;
+  color: #fff;
+}
+
+/* ABOUT STYLING */
+
+.tutorHeading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 130px;
+}
+
+.tutorDescription {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.tutorCourses {
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 27px;
   text-align: center;
+  color: #212226;
+  font-weight: 600;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.topicsCovered {
+  font-weight: 300;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.conceptsCovered {
+  background:rgba(255,255,255,0.5);
   color: white;
+  font-size: 24px;
+  border-radius: 0px 10px 10px 0px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.courseTopics {
+  margin-left: 50px!important
+  /* padding-left: 20px; */
+  /* width: 45%!important;
+  margin: 0px!important;
+  padding: 0px!important; */
 }
