@@ -16,7 +16,7 @@ body {
 
 .logoImage {
   width: 80%;
-  margin: 20px 10% 0px 10%;
+  margin: 40px 10% 0px 10%;
 }
 
 .fullPage {
@@ -41,6 +41,7 @@ body {
   font-size: 40px;
   line-height: 125px;
   color: #fff;
+  margin: 20px 0px;
 }
 
 .navLink {
@@ -191,4 +192,29 @@ body {
 
 .vid1.first, .vid2.second, .vid3.third {
   background-color: rgba(255,255,255,0.6);
+}
+
+/*  CONTACT PAGE STYLING */
+
+.contactDiv {
+  margin-top: 250px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0px 0px 0px!important;
+}
+
+.contactDetails {
+  font-weight: 300;
+  line-height: 90px;
+}
+
+.contactInfo {
+  background-color: white;
+  color: #212226;
+  padding: 0px!important;
+  border-radius: 0px 0px 10px 10px;
 }
