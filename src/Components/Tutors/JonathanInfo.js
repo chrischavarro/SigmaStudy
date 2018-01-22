@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 
 function JonathanInfo() {
   return (
-    <div className="col s11 offset-s1 tutorDiv">
-      <div className="tutorCourses col s3">
-        <div style={{ marginTop: '70px' }}>
+    <div className="col s11 offset-s1 tutorDiv wrapper">
+      <div className="tutorCourses col s3 divs">
+        <div>
+          <br/><br/>
           Organic Chemistry 1 <br/>
-          <span className="topicsCovered">Topics Covered</span>
+          <span className="topicsCovered">Topics Covered</span><br/><br/><br/>
         </div>
-        <div style={{ marginTop: '155px', paddingBottom: '109px' }}>
+        <div style={{ paddingBottom: '18px' }}>
+        <br/>
           Organic Chemistry 2 <br/>
-          <span className="topicsCovered">Topics Covered</span>
+          <span className="topicsCovered">Topics Covered</span><br/><br/><br/>
         </div>
       </div>
-      <div className="conceptsCovered col s8">
+      <div className="conceptsCovered col s8 divs">
         <ul className="courseTopics col s5">
           <li>Bondline</li>
           <li>Acids and Bases</li>

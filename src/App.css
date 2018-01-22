@@ -1,9 +1,11 @@
 body {
-  cursor: default;
+  /* cursor: default; */
+  font-family: 'Assistant', sans-serif;
 }
 
 .orangeBg {
-  background-color: rgba(244, 115, 33, 0.8);
+  background-color: rgba(195, 78, 4, 0.8);
+  /* background-color: rgba(244, 115, 33, 0.9); */
 }
 
 .greenBg {
@@ -12,6 +14,12 @@ body {
 
 .row.appRow {
   margin-bottom: 0px!important;
+}
+
+.logoDiv {
+  /* box-shadow: inset 0 0 10vw 2.5vw rgba(170, 170, 170, 0.8)!important; */
+  /* background-color: white; */
+  padding-bottom: 20px;
 }
 
 .logoImage {
@@ -38,16 +46,17 @@ body {
 }
 
 .navLinks {
-  font-size: 40px;
+  font-size: 42px;
   line-height: 125px;
   color: #fff;
   margin: 20px 0px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 200;
 }
 
 .navLink {
   padding: 0px 15px 0px 25px;
   transition: all .3s;
-  font-weight: 100;
   color: #fff;
 }
 
@@ -61,10 +70,20 @@ body {
 
 .tutorHeading {
   color: #fff;
+  font-family: 'Assistant', sans-serif;
   font-weight: 600;
   font-size: 40px;
-  margin-bottom: 20px;
-  margin-top: 130px;
+  margin-top: 150px;
+  padding: 0px!important;
+  width: 84%!important;
+}
+
+.chemWithJules {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.orgoWithJohn {
+  border-radius: 0px 10px 0px 0px;
 }
 
 .chemWithJules, .orgoWithJohn {
@@ -81,9 +100,8 @@ body {
 .chemWithJules, .orgoWithJohn {
   text-align: center;
   padding: 10px 0px 10px 0px!important;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
-
 
 .chemWithJules.jules {
   background-color: rgba(0, 80, 48, 0.8)!important;
@@ -95,6 +113,7 @@ body {
 
 .tutorDiv {
   transition: all .6s;
+  padding: 0px!important;
 }
 
 .tutorDescription {
@@ -105,7 +124,7 @@ body {
 
 .tutorCourses {
   background-color: white;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 0px 0px 10px;
   font-size: 27px;
   text-align: center;
   color: #212226;
@@ -120,7 +139,8 @@ body {
   background:rgba(255,255,255,0.5);
   color: white;
   font-size: 24px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0px 10px 0px;
+  padding: 0px!important;
 }
 
 .courseTopics {
