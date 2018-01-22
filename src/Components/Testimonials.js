@@ -41,15 +41,11 @@ class Testimonials extends Component {
   render() {
     // Implement two buttons, general chem and orgo, each one executes a function to swap out the text, fading in and out of DOM
     return (
-      <div className="col s10 fullPage greenBg">
-        <div className="tutorHeading col s10 offset-s1">
-          <div className="col s12 testimonialHeader">Testimonials</div>
+      <div className="col s10 fullPage orangeBg">
+        <div className=" col s10 offset-s1">
           <div className="col s12 testimonialDiv">
               {this.renderTestimonials()}
           </div>
-
-        </div>
-        <div>
         </div>
       </div>
     )

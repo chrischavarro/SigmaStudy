@@ -5,6 +5,10 @@ class SecondTestimonial extends Component {
     super(props)
   }
 
+  componentWillUnmount() {
+    console.log('Unmounting component')
+  }
+
   switchTestimonials(val) {
     this.props.switchTestimonials(val)
   }

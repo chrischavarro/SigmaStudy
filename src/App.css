@@ -38,9 +38,7 @@ body {
 }
 
 .navLinks {
-  /* text-transform: uppercase; */
   font-size: 40px;
-  /* margin-left: 25px; */
   line-height: 125px;
   color: #fff;
 }
@@ -55,7 +53,7 @@ body {
 .navLink:hover {
   background-color: rgba(74, 51, 43, 1.0);
   transition: all .3s;
-  cursor: pointer;
+  cursor: pointer!important;
 }
 
 /* ABOUT STYLING */
@@ -135,6 +133,7 @@ body {
 }
 
 .testimonialDiv {
+  margin-top: 195px;
   background-color: rgba(255,255,255,0.5);
   border-radius: 10px 10px 10px 10px;
   font-size: 27px;
@@ -160,4 +159,36 @@ body {
 
 .testimonialButtons {
   margin-top: 10px;
+}
+
+.testimonialButtons i:hover {
+  cursor: pointer;
+}
+
+/*  VIDEO PAGE STYLING */
+
+.video-container {
+  margin-top: 40px;
+}
+
+.videoTopics {
+  background-color: rgba(255,255,255,0.5);
+  padding: 0px!important;
+}
+
+.videoTopic {
+  text-align: center;
+  font-size: 30px;
+  transition: all .3s;
+  padding: 20px 0px!important;
+}
+
+.videoTopic:hover {
+  background-color: rgba(255,255,255,0.6);
+  transition: all .3s;
+  cursor: pointer!important;
+}
+
+.vid1.first, .vid2.second, .vid3.third {
+  background-color: rgba(255,255,255,0.6);
 }
