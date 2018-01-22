@@ -40,9 +40,22 @@ body {
 .navLinks {
   /* text-transform: uppercase; */
   font-size: 40px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
   line-height: 125px;
   color: #fff;
+}
+
+.navLink {
+  padding: 0px 15px 0px 25px;
+  transition: all .3s;
+  font-weight: 100;
+  color: #fff;
+}
+
+.navLink:hover {
+  background-color: rgba(74, 51, 43, 1.0);
+  transition: all .3s;
+  cursor: pointer;
 }
 
 /* ABOUT STYLING */
@@ -55,9 +68,40 @@ body {
   margin-top: 130px;
 }
 
+.chemWithJules, .orgoWithJohn {
+  padding: 0px!important;
+  transition: all .3s;
+}
+
+.chemWithJules:hover, .orgoWithJohn:hover {
+  background-color: rgba(0, 80, 48, 0.8)!important;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.chemWithJules, .orgoWithJohn {
+  text-align: center;
+  padding: 10px 0px 10px 0px!important;
+  border-radius: 10px;
+}
+
+
+.chemWithJules.jules {
+  background-color: rgba(0, 80, 48, 0.8)!important;
+}
+
+.orgoWithJohn.jonathan {
+  background-color: rgba(0, 80, 48, 0.8)!important;
+}
+
+.tutorDiv {
+  transition: all .6s;
+}
+
 .tutorDescription {
   font-size: 22px;
   font-weight: 300;
+  text-align: center;
 }
 
 .tutorCourses {
@@ -82,8 +126,38 @@ body {
 
 .courseTopics {
   margin-left: 50px!important
-  /* padding-left: 20px; */
-  /* width: 45%!important;
-  margin: 0px!important;
-  padding: 0px!important; */
+}
+
+/* TESTIMONIAL PAGE STYLING */
+
+.testimonialHeader {
+  text-align: left;
+}
+
+.testimonialDiv {
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 10px 10px 10px 10px;
+  font-size: 27px;
+  text-align: center;
+  color: #212226;
+  font-weight: 600;
+  padding: 0px!important;
+}
+
+.testimonialCopy {
+  color: #fff;
+  font-weight: 200;
+  padding: 20px 30px!important;
+  line-height: 60px;
+}
+
+.testimonialName {
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  color: #212226;
+  padding: 20px 0px 10px 0px!important;
+}
+
+.testimonialButtons {
+  margin-top: 10px;
 }

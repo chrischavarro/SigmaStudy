@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../Images/logo.png';
+import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
   render() {
@@ -11,11 +12,11 @@ class Navbar extends Component {
           </div>
           <div className="">
             <ul className="navLinks">
-              <li>About Us</li>
-              <li>Testimonials</li>
-              <li>Free Videos</li>
-              <li>Schedule</li>
-              <li>Contact</li>
+              <Link to="/"><li className="navLink">About Us</li></Link>
+              <Link to="/testimonials"><li className="navLink">Testimonials</li></Link>
+              <Link to="/videos"><li className="navLink">Free Videos</li></Link>
+              <Link to="/schedule"><li className="navLink">Schedule</li></Link>
+              <Link to="/contact"><li className="navLink">Contact</li></Link>
             </ul>
           </div>
         </div>

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { AnimatedRoute, AnimatedSwitch, spring } from 'react-router-transition';
 import { BrowserRouter, Route } from 'react-router-dom'
-import AboutJules from './Components/AboutJules';
+import About from './Components/About';
 import Navbar from './Components/Navbar';
+import Testimonials from './Components/Testimonials';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +13,8 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Navbar />
-            <AboutJules />
+            <Route exact path="/" component={About} />
+            <Route exact path="/testimonials" component={Testimonials}/>
           </div>
         </BrowserRouter>
       </div>
