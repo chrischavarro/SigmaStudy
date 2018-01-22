@@ -8,7 +8,7 @@ class Contact extends Component {
           <div className="col s5 contactDiv">
             Phone
             <div className="contactDetails">
-              <div style={{ padding: '0px 20px'}}>{"Call or text and ask for Jules or Jonathan"}</div>
+              <div style={{ padding: '0px 40px'}}>{"Call or text and ask for Jules or Jonathan"}</div>
               <div className="contactInfo">(786) 558-3749</div>
             </div>
           </div>
