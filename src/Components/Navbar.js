@@ -10,7 +10,7 @@ class Navbar extends Component {
           <div className="logoDiv">
             <img src={Logo} className="logoImage" />
           </div>
-          <div className="">
+          <div>
             <ul className="navLinks">
               <Link to="/"><li className="navLink">About Us</li></Link>
               <Link to="/testimonials"><li className="navLink">Testimonials</li></Link>
@@ -19,6 +19,16 @@ class Navbar extends Component {
               <Link to="/contact"><li className="navLink">Contact</li></Link>
             </ul>
           </div>
+        </div>
+        <div className="mobileNavbar">
+          <ul className="navLinks">
+            <li style={{ fontWeight: '400', color: 'rgb(0,117,70)' }}>Sigma Study</li>
+            <Link to="/"><li className="navLink">About Us</li></Link>
+            <Link to="/testimonials"><li className="navLink">Testimonials</li></Link>
+            <Link to="/videos"><li className="navLink">Free Videos</li></Link>
+            <Link to="/schedule"><li className="navLink">Schedule</li></Link>
+            <Link to="/contact"><li className="navLink">Contact</li></Link>
+          </ul>
         </div>
       </div>
     )
