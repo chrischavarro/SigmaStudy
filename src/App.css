@@ -155,7 +155,7 @@ body:not(.material-icons) {
 }
 
 .conceptsCovered {
-  background:rgba(255,255,255,0.5);
+  background:rgba(255,255,255,0.4);
   color: white;
   font-size: 24px;
   /* border-radius: 0px 0px 10px 0px; */
@@ -174,7 +174,7 @@ body:not(.material-icons) {
 
 .testimonialDiv {
   margin-top: 195px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.4);
   /* border-radius: 10px 10px 10px 10px; */
   font-size: 27px;
   text-align: center;
@@ -213,7 +213,7 @@ body:not(.material-icons) {
 }
 
 .videoTopics {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.4);
   padding: 0px!important;
   box-shadow: 0px 8px 23px 5px rgba(88, 105, 107, 0.35);
 }
@@ -251,7 +251,7 @@ body:not(.material-icons) {
 
 .contactDiv {
   margin-top: 250px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.4);
   /* border-radius: 10px; */
   text-align: center;
   font-size: 36px;
