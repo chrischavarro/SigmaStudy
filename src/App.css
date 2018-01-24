@@ -62,7 +62,8 @@ body:not(.material-icons) {
 }
 
 .navLinks {
-  font-size: 42px;
+  font-size: 36px;
+  text-align: center;
   line-height: 125px;
   color: #fff;
   margin: 20px 0px;

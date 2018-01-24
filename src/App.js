@@ -51,7 +51,7 @@ class App extends Component {
           <div>
             <Navbar />
             <AnimatedSwitch
-              atEnter={{ offset: 100 }}
+              atEnter={{ offset: -100 }}
               atLeave={{ offset: 100 }}
               atActive={{ offset: 0 }}
               mapStyles={(styles) => ({
