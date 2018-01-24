@@ -13,13 +13,13 @@ body:not(.material-icons) {
 
 .orangeBg {
   /* background: radial-gradient(rgba(195, 78, 4, 0.8) 50%,#603500 100%); */
-  background-color: #c25e00;
+  background-color: #ff844c;
 }
 
 .greenBg {
   /* background: radial-gradient(rgba(0, 80, 48, 0.8) 50%,rgba(0, 80, 41, 1) 100%); */
   /* background-color: #4caf50; */
-  background-color: #6d4c41;
+  background-color: #43a047;
   /* background-color: #F5F5F6; */
 }
 
@@ -49,7 +49,7 @@ body:not(.material-icons) {
 .navbar {
   min-height: 100vh!important;
   /* background-color: rgba(74, 51, 43, 0.9); */
-  background-color: #40241a;
+  background-color: #6d4c41;
   padding: 0px!important;
   box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
   /* width: 5%!important; */
@@ -68,7 +68,7 @@ body:not(.material-icons) {
   color: #fff;
   margin: 20px 0px;
   font-family: 'Assistant', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .navLink {
@@ -92,15 +92,14 @@ body:not(.material-icons) {
   font-size: 40px;
   margin-top: 150px;
   padding: 0px!important;
-  width: 84%!important;
 }
 
 .chemWithJules {
-  border-radius: 10px 0px 0px 0px;
+  /* border-radius: 10px 0px 0px 0px; */
 }
 
 .orgoWithJohn {
-  border-radius: 0px 10px 0px 0px;
+  /* border-radius: 0px 10px 0px 0px; */
 }
 
 .chemWithJules, .orgoWithJohn {
@@ -109,7 +108,7 @@ body:not(.material-icons) {
 }
 
 .chemWithJules:hover, .orgoWithJohn:hover {
-  background-color: #9c786c!important;
+  background-color: #76d275!important;
   transition: all .3s;
   cursor: pointer;
 }
@@ -121,16 +120,17 @@ body:not(.material-icons) {
 }
 
 .chemWithJules.jules {
-  background-color: #40241a!important;
+  background-color: #00701a!important;
 }
 
 .orgoWithJohn.jonathan {
-  background-color: #40241a!important;
+  background-color: #00701a!important;
 }
 
 .tutorDiv {
   transition: all .6s;
   padding: 0px!important;
+  box-shadow: 0px 8px 23px 5px rgba(88, 105, 107, 0.35);
 }
 
 .tutorDescription {
@@ -141,7 +141,7 @@ body:not(.material-icons) {
 
 .tutorCourses {
   background-color: white;
-  border-radius: 0px 0px 0px 10px;
+  /* border-radius: 0px 0px 0px 10px; */
   font-size: 27px;
   text-align: center;
   color: #212226;
@@ -156,7 +156,7 @@ body:not(.material-icons) {
   background:rgba(255,255,255,0.5);
   color: white;
   font-size: 24px;
-  border-radius: 0px 0px 10px 0px;
+  /* border-radius: 0px 0px 10px 0px; */
   padding: 0px!important;
 }
 
@@ -173,12 +173,13 @@ body:not(.material-icons) {
 .testimonialDiv {
   margin-top: 195px;
   background-color: rgba(255,255,255,0.5);
-  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 10px 10px 10px 10px; */
   font-size: 27px;
   text-align: center;
   color: #212226;
   font-weight: 600;
   padding: 0px!important;
+  box-shadow: 0px 8px 23px 5px rgba(88, 105, 107, 0.35);
 }
 
 .testimonialCopy {
@@ -190,7 +191,7 @@ body:not(.material-icons) {
 
 .testimonialName {
   background: white;
-  border-radius: 0px 0px 10px 10px;
+  /* border-radius: 0px 0px 10px 10px; */
   color: #212226;
   padding: 20px 0px 10px 0px!important;
 }
@@ -212,6 +213,7 @@ body:not(.material-icons) {
 .videoTopics {
   background-color: rgba(255,255,255,0.5);
   padding: 0px!important;
+  box-shadow: 0px 8px 23px 5px rgba(88, 105, 107, 0.35);
 }
 
 .videoTopic {
@@ -228,15 +230,15 @@ body:not(.material-icons) {
 }
 
 .vid1 {
-  border-radius: 0px 0px 0px 10px;
+  /* border-radius: 0px 0px 0px 10px; */
 }
 
 .videoTopics {
-  border-radius: 0px 0px 10px 10px;
+  /* border-radius: 0px 0px 10px 10px; */
 }
 
 .vid3 {
-  border-radius: 0px 0px 10px 0px;
+  /* border-radius: 0px 0px 10px 0px; */
 }
 
 .vid1.first, .vid2.second, .vid3.third {
@@ -248,12 +250,13 @@ body:not(.material-icons) {
 .contactDiv {
   margin-top: 250px;
   background-color: rgba(255,255,255,0.5);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   text-align: center;
   font-size: 36px;
   color: #fff;
   font-weight: 600;
   padding: 20px 0px 0px 0px!important;
+  box-shadow: 0px 8px 23px 5px rgba(88, 105, 107, 0.35);
 }
 
 .contactDetails {
@@ -265,7 +268,7 @@ body:not(.material-icons) {
   background-color: white;
   color: #212226;
   padding: 0px!important;
-  border-radius: 0px 0px 10px 10px;
+  /* border-radius: 0px 0px 10px 10px; */
 }
 
 @media (max-width: 768px) {

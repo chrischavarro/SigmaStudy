@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 function JonathanInfo() {
   return (
-    <div className="col s11 offset-s1 tutorDiv wrapper">
-      <div className="tutorCourses col s3 divs">
+    <div className="col s10 offset-s1 tutorDiv">
+      <div className="tutorCourses col s3">
         <div>
           <br/><br/>
           Organic Chemistry 1 <br/>
@@ -15,7 +15,7 @@ function JonathanInfo() {
           <span className="topicsCovered">Topics Covered</span><br/><br/><br/>
         </div>
       </div>
-      <div className="conceptsCovered col s8 divs">
+      <div className="conceptsCovered col s9">
         <ul className="courseTopics col s5">
           <li>Bondline</li>
           <li>Acids and Bases</li>
